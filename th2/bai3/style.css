@@ -14,6 +14,9 @@ body {
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
+   border-left: 2px solid #007bff;
+  border-right: 2px solid  #007bff;
+  border-bottom: 2px solid #007bff;
 }
 
 h1 {
