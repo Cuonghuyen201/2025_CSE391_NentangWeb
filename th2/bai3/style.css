@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background: white;
+  color: #333;
+  padding: 60px 30px;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.row {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  padding: 25px;
+  background: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+
+.card p {
+  font-size: 13px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.card .author strong {
+  font-weight: bold;
+}
+
+.card .author span {
+  color: #2980b9;
+  font-size: 12px;
+}
+
+.content {
+  max-width: 500px;
+}
+
+.content p {
+  font-size: 13px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.content .bold {
+  font-weight: bold;
+}
