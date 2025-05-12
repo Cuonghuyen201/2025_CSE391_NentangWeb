@@ -22,7 +22,7 @@ ul {
 header,
 footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 20px 10%;
   background-color: #450245;
